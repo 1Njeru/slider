@@ -1,0 +1,108 @@
+body{
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+}
+.hero{
+   padding: 10px;
+}
+.hero h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: rgb(25, 66, 102);
+    
+    overflow: hidden;
+}
+.slide-row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    transition: 0.5s;
+   
+    
+
+}
+.slide-col{
+    width: 800px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    
+    
+}
+.user-image{
+    width: 100px;
+    height: 100%;
+    right: 0;
+    border-radius: 50%;
+
+
+}
+.user-text{
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #2d3a59;
+    position: relative;
+    border-radius: 10px;
+    color: azure;
+    padding: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    z-index: 2;
+
+ 
+}
+.user-text p{
+    font-size: 11px;
+    line-height: 24px;
+
+}
+.user-text h3{
+    margin: 35px 0 5px;
+    font-size: 15;
+    color: whited;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+.indicator{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+   
+   
+
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #962121;
+    cursor: pointer;
+    
+}
+.active{
+    width: 25px;
+}
+.testimonial{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+

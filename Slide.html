@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Testimonial Design</title>
+<link rel="stylesheet" href="slide.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Testimonies</h1>
+
+        <div class="testimonial">
+        <div class="slide-row" id="slide">
+
+            <div class="slide-col">
+                <img src="sw.JPG" class="user-image">
+                <div class="user-text">
+                    <p>Today i woke up bored, broke and hungry</p>
+                    <h2>Samuel</h2>
+                    <h3>Health</h3>
+                </div>
+            </div>
+
+            <div class="slide-col">
+                <img src="ny.JPG" class="user-image">
+                <div class="user-text">
+                    <p>Today i woke up bored, broke and hungry</p>
+                    <h3>Edward</h3>
+                    <h2>Religeous Leader</h2>
+                </div>
+            </div>
+
+            <div class="slide-col">
+                <img src="ross.JPeG" class="user-image">
+                <div class="user-text">
+                    <p>Today i woke up bored, broke and hungry</p>
+                    <h3>Brian</h3>
+                    <h2>Legal</h2>
+                </div>
+            </div>
+
+            <div class="slide-col">
+                <img src="df.JPG" class="user-image">
+                <div class="user-text">
+                    <p>Today i woke up bored, broke and hungry</p>
+                    <h3>Becca</h3>
+                    <h2>Admin</h2>
+                </div>
+            </div>
+        </div>
+            </div>
+            </div>
+
+        
+        <div class="container">
+            <div class="indicator">
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </div>
+        
+        </div>
+    </div> 
+</div>
+<script>
+    var btn = document.getElementsByClassName("btn");
+    var slid =  document.getElementById("slide");
+
+    btn[0].onclick = function(){
+        slide.style.transform = "translateX(0px)";
+    }
+    btn[1].onclick = function(){
+        slide.style.transform = "translateX(-800px)";
+    }
+    btn[2].onclick = function(){
+        slide.style.transform = "translateX(-1600px)";
+    }
+    btn[3].onclick = function(){
+        slide.style.transform = "translateX(-2400px)";
+    }
+
+</script>
+    
+</body>
+</html>
+
+
+
+
+
